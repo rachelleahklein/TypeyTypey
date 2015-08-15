@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+.wordsToType {
+    font-family: 'PT Mono', monospace;
+}
+
+#wordsonpage {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 400px;
+    bottom: 0;
+    right: 0;
+}
+
+#credits {
+    position: fixed;
+    bottom: 0;
+}
